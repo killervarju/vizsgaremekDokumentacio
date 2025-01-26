@@ -1,0 +1,3 @@
+= Funkcionális modellek
+
+* link:functional-models/manage-problem-functional-model.adoc[Problémák kezelése]

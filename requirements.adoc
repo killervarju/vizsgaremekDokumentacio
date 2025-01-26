@@ -4,6 +4,16 @@
 |===
 |Követelmény|Használati esetek|Állapot
 
+| *Problémák kezelése*
+
+Egy listában megjelennek az adatbázisban eltárolt reptéren felmerülő problémák.
+A felhasználók tudnak új problémát felvenni a problémát meg tudják tekinteni.
+A problémákat státusz szerint különböztetkük meg.
+
+| * Probléma megtekintése
+
+* Összes probléma listázása
+|Elkészült
 
 | *Munkavállalók kezelése*
 
@@ -40,3 +50,6 @@ kapni a bejelentkezés után.
 
 | Bejelentkezés, Kijelentkezés
 | Elkészítésre vár
+
+|===
+link:README.adoc[Vissza]
