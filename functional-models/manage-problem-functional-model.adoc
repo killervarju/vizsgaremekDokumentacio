@@ -216,3 +216,120 @@ image::../static/UC_diagrams/manageProblemsUseCases.drawio.png[Használati eset 
 
 |===
 
+==== A felületről elérhető műveletek
+[cols="1,1,1"]
+|===
+|Esemény|Leírás|Jogosúltság
+
+|Oldal betöltésénél
+|Végrehajtásra kerül a problémák listázása használati eset.
+A találati listában megjelnnek a kiválogatott problémák.
+|PROBLEM_LIST
+
+|A Megtekintés gombra kattintva
+|Végrehajtásra kerül a Probléma megtekintése használati eset.
+A felhasználó a megtekintő felületen látja a kiválasztott Probléma adatait.
+|PROBLEM_READ
+
+|===
+
+==== A felületen lévő mezők
+[cols="1,1,1,1,1"]
+|===
+|Megnevezés|Típus|Kötelező|Szerekeszthető|Validáció
+
+|Név
+|Szöveges input mező
+|I
+|I
+|
+
+|Leírás
+|Szöveges input mező
+|I
+|I
+|
+
+|Dátum
+|
+|N
+|N
+|Nem lehet a mai dátumtól későbbi
+
+|Probléma típus
+|Lenyíló lista
+|I
+|I
+|
+
+|Probléma státusza
+|
+|N
+|N
+|
+
+|===
+
+==== A felületen elérhető műveletek
+[cols="1,1,1,1"]
+|===
+|Esemény|Leírás|Felület|Jogosultság
+
+|A Mentés gombra kattintás
+|Végrahajtásra kerül a probléma rögzítése használati eset.
+A felhasználó a probléma megtekintése felületre jut.
+
+Az űrlapot addig nem lehet beküldeni ameddig nincs minden mező helyesen kitöltve.
+|Probléma létrehozása felület
+|PROBLEM_CREATE
+
+|A Mentés gombra kattintás
+|Végrehajtásra kerül a Probléma módosítása használati eset.
+A felhasználó a probléma megtekintése fülre jut.
+
+|Probléma módosítása felület
+|PROBLEM_UPDATE
+
+|===
+
+=== Probléma megtekintése felület
+==== Arculat
+
+==== A felületen lévő mezők
+[cols="1,1"]
+|===
+|Megnevezés|Típus
+
+|Probléma neve
+|Szöveges címke
+
+|Probléma leírása
+|Szöveges címke
+
+|Dátum
+|Szöveges címke
+
+|Probléma típus
+|Szöveges címke
+
+|Probléma státusz
+|Szöveges címke
+
+|===
+
+==== A felületről elérhető műveletek
+[cols="1,1,1"]
+|===
+|Esemény|Leírás|Jogosúltság
+
+|A megtekintés gombra kattintás
+|A felhasználó a probléma megtekintése felületre jut
+|-
+
+|A Törlés gombra kattintás
+|Egy megerősítő párbeszédablak után törlődik a probléma
+|PROBLEM_DELETE
+
+|===
+
+link:../functional-models.adoc[Vissza]
