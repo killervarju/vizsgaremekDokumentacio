@@ -209,10 +209,28 @@ image::../static/UC_diagrams/manageProblemsUseCases.drawio.png[Használati eset 
 |Név|Típus|Kötelező?|Szerkezthető?|Megjelenés
 
 |Probléma neve
-|
-|
-|
-|
+|Címke
+|-
+|-
+|Találati lista ablakrész
+
+|Probléma leírása
+|Címke
+|-
+|-
+|Találati lista ablakrész
+
+|Probléma hozzáadásának dátuma
+|Címke
+|-
+|-
+|Találati lista ablakrész
+
+|Probléma hibakódja
+|Címke
+|-
+|-
+|Találati lista ablakrész
 
 |===
 
@@ -320,7 +338,7 @@ A felhasználó a probléma megtekintése fülre jut.
 ==== A felületről elérhető műveletek
 [cols="1,1,1"]
 |===
-|Esemény|Leírás|Jogosúltság
+|Esemény|Leírás|Jogosultság
 
 |A megtekintés gombra kattintás
 |A felhasználó a probléma megtekintése felületre jut
