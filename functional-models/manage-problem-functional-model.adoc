@@ -288,6 +288,9 @@ A felhasználó a megtekintő felületen látja a kiválasztott Probléma adatai
 
 |===
 
+
+=== Probléma rögzítése és módosítása felület
+==== Arculat
 ==== A felületen elérhető műveletek
 [cols="1,1,1,1"]
 |===
