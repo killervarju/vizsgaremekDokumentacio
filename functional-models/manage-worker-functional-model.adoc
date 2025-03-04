@@ -1,7 +1,7 @@
 = Dolgozók kezelése funkcionális modell
 
 == Leírás
-Csak bejelentkezett felhasználó tud új dolgozt felvenni, törölni, vagy módosítani.
+Csak bejelentkezett felhasználó tud új dolgozót felvenni, törölni, vagy módosítani.
 
 == Használati esetek
 image::../static/UC_diagrams/manageWorkersUseCases.drawio.png[Használati eset diagram]
