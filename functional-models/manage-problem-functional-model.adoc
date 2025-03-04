@@ -24,16 +24,16 @@ image::../static/UC_diagrams/manageProblemsUseCases.drawio.png[Használati eset 
 |
 1. A felhasználó a Problémák listázásamenüpontra kattint
 
-2. A rendszerben kiválogatásra kerülnek az állatok
+2. A rendszerben kiválogatásra kerülnek a problémák
 
 |Kivételek és alternetívák
 | -
 
 |Utófeltétel
-|A rendszerben a problémáklistája előállt
+|A rendszerben a problémák listája előállt
 
 |Eredmény
-|A felhasználó látja az problémák listáját, kiválaszthat közülük egyet
+|A felhasználó látja a problémák listáját, kiválaszthat közülük egyet
 
 |Használati eset realizáció
 |Technikai modell

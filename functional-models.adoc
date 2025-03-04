@@ -1,5 +1,6 @@
 = Funkcionális modellek
 
 * link:functional-models/manage-problem-functional-model.adoc[Problémák kezelése]
+* link:functional-models/manage-worker-functional-model.adoc[Dolgozók kezelése]
 
 link:system-plan.adoc[Vissza]
